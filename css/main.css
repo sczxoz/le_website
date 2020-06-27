@@ -4,6 +4,10 @@ body {
     width: 800px;
 }
 
+div {
+    border: 1px solid green;
+}
+
 a {
     color:red;
 }
