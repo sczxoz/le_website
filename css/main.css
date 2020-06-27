@@ -24,6 +24,7 @@ li a {
 .bio-box {
     border: 1px solid black;
     background-color: azure;
+    padding: 10px;
 }
 
 .bio-copy a {
