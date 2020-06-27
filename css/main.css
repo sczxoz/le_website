@@ -1,3 +1,4 @@
+/* GLOBAL STYLES */
 body {
     margin: 0px auto;
     width: 800px;
@@ -15,30 +16,25 @@ li a {
     color: lightgreen;
 }
 
+.social-link {
+    color: blue;
+}
+
+/* BIO STYLES */
 .bio-box {
     border: 1px solid black;
-}
-
-.bio-box a {
-    color: green;
-}
-
-.bio-bg {
     background-color: azure;
 }
 
+.bio-copy a {
+    color: green;
+}
+
+/* MISC. */
 p.highlighted {
     background: yellow;
     font-size: 1em;
     margin: 20px auto;
     padding: 10px;
     width: 500px;
-}
-
-#i-can-haz-orange {
-    color: orange;
-}
-
-#exec-bio {
-    background: lightgray;
 }
