@@ -7,9 +7,6 @@ html {
 body {
     font-family: helvetica, arial, sans;
 }
-div {
-    border: 1px solid #eee;
-}
 
 h1 {
     font-size: 7vw;
@@ -137,12 +134,10 @@ h2 ~ p {
     color: #aaa;
 }
 
-/* HERO STYLES*/
-.full-hero {
-    background-color: #c7dbfc;
-    height: 50vh;
+.footer-social {
     position: relative;
-    width: auto;
+    transform: translate(-50%, 0);
+    margin-top: 1.25em;
 }
 
 /* SOCIAL STYLES */
@@ -171,14 +166,54 @@ h2 ~ p {
     left: 50%;
     list-style: none;
     padding: 0;
-    position: absolute;
     text-align: center;
-    top: 50%;
-    transform: translate(-50%, -50%);
+
 }
 .social-list > li {
     display: inline-block;
     margin: 0 0.5em;
+}
+
+/* HERO STYLES*/
+.full-hero {
+    background-color: #c7dbfc;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 100vh;
+    padding-top: 10vh;
+    position: relative;
+    width: auto;
+}
+
+.hero-home {
+    background-image: url(/images/shark.jpg);
+    background-position: center top;
+}
+
+.hero-content {
+    color: #fff;
+    left: 50%;
+    position: relative;
+    text-transform: uppercase;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-content h1 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 7vw;
+    margin-bottom: 0.25em;
+    text-align: center;
+}
+
+.hero-content .social-link {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #556c83;
+}
+
+.hero-content .social-link:active, .hero-content .social-link:hover {
+    background-color: #000;
+    color: #fff;
 }
 
 /* BIO STYLES */
