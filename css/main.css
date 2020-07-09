@@ -665,7 +665,7 @@ h2 ~ p {
         float: right;
         font-weight: bold;
         margin-top: 1.5vh;
-        padding: 1.5em;
+        padding: 1em;
         padding-bottom: 0;
         position: relative;
         text-transform: uppercase;
@@ -715,7 +715,7 @@ h2 ~ p {
         left: 0;
         position: absolute;
         text-align: center;
-        top: 1.5em;
+        top: 1em;
         width: 100%
     }
 
