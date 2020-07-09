@@ -666,6 +666,7 @@ h2 ~ p {
         font-weight: bold;
         margin-top: 1.5vh;
         padding: 1.5em;
+        padding-bottom: 0;
         position: relative;
         text-transform: uppercase;
     }
