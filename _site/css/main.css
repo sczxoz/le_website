@@ -647,7 +647,7 @@ h2 ~ p {
         margin-left: 0.25em;
     }
     .header-nav > li ~ li {
-        padding-left: 0.25em;
+        padding: 0;
         border: none;
     }
 
