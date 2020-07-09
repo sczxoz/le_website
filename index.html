@@ -25,6 +25,14 @@ layout: default
     </div>
     
     <div class="home-section">
+        <h4>Most Recent Post</h4>
+        {% for post in site.posts limit:1%}
+            {% include post-excerpt.html %}               
+        {% endfor %}
+        </ul>
+    </div>
+
+    <div class="home-section">
     
         <h2>The headingest heading</h2>
     
@@ -49,7 +57,7 @@ layout: default
     
                 <img src="https://placekitten.com/g/400/400">
     
-                <h3>Sum-Hwan Else</h3>
+                <h3>Sum Hwan</h3>
         
                 <a class="social-link show" href="https://twitter.com/stef_coetzee" target="_blank" rel="noreferrer">Tw</a>
     
