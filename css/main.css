@@ -517,7 +517,7 @@ h2 ~ p {
     cursor: default;
 }
 .gallery-thumbs .current img {
-    box-shadow: 0 0 0 5px #ed6e2f;
+    box-shadow: 0 0 0 3px #ed6e2f;
     opacity: 1;
 }
 
