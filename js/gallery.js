@@ -11,10 +11,15 @@ function activateGallery() {
   let currentClass = "current";
 
   thumbnails.forEach(function(thumbnail) {
+    // Preload large images.
+    let newImageSrc = thumbnail.dataset.largeVersion;
+    let largeVersion = new Image();
+    
+
     thumbnail.addEventListener("click", function() {
       // Set clicked image as main image.
       mainImage.setAttribute("alt", thumbnail.alt);
-      mainImage.setAttribute("src", thumbnail.dataset.largeVersion);
+      mainImage.setAttribute("src", newImageSrc);
       imageTitle.innerHTML = thumbnail.dataset.title;
       imageDescription.innerHTML = thumbnail.dataset.description;
 
